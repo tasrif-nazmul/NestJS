@@ -8,6 +8,6 @@ import { QuizService } from './modules/quiz/quiz.service';
 @Module({
   imports: [QuizModule],
   controllers: [AppController, QuizController],
-  providers: [AppService,QuizService],
+  providers: [AppService, QuizService],
 })
 export class AppModule {}
