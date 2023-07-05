@@ -5,8 +5,4 @@ export class AppService {
   getHello(): string {
     return 'Hello World!';
   }
-
-  getSomething() : string{
-    return "My name is Naazmul";
-  }
 }
